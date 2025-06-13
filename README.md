@@ -22,7 +22,7 @@ https://github.com/dede-ugolini/algoritimos-universidade/tree/main
 int size = sizeof(arr) / sizeof(arr[0]);
 ```
 
-- Váriaveis globais que estão sendo usadas para fazer a ordenação em mais de uma função podem se tornar um problema conforme a aplicação cresce.
+- Váriaveis globais que estão sendo usadas para fazer a ordenação em mais de uma função é uma má prática e podem se tornar um problema conforme a aplicação cresce.
 ```
 int i, j, tmp;
 ```
